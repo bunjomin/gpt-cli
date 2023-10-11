@@ -10,6 +10,8 @@ Featuring:
 - Syntax highlighting with [highlight.js](https://www.npmjs.com/package/highlight.js).
 - Saved chats, so you can resume a chat where you left off.
 
+**Inspired by [marcolardera/chatgpt-cli](https://github.com/marcolardera/chatgpt-cli)**
+
 ## Installation
 
 You must already have [NodeJS](https://nodejs.org/en/download) (with NPM) installed, or if you prefer having multiple versions on your system, [NVM](https://github.com/nvm-sh/nvm).
