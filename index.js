@@ -52,12 +52,6 @@ marked.setOptions({
   }),
 });
 
-// function languageHasStyles(language) {
-//   const style = h2c.readStylesheet(language);
-//   if (!style || typeof style !== "string") return false;
-//   return true;
-// }
-
 function autoDetectLanguage(code) {
   const languages = hljs.listLanguages(),
     plaintext = hljs.highlight(code, { language: "plaintext" }, false);
@@ -65,7 +59,6 @@ function autoDetectLanguage(code) {
   const results = languages
     .filter(hljs.getLanguage)
     .filter(hljs.autoDetection)
-    // .filter(languageHasStyles)
     .map((language) => ({
       language,
       result: hljs.highlight(code, { language }, false),
