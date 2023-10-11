@@ -21,7 +21,7 @@ npm i -g git+https://github.com/bunjomin/gpt-cli.git
 Optionally, include a commit hash or a tag at the end so you can be more certain of what exactly you're installing:
 
 ```sh
-npm i -g git+https://github.com/bunjomin/gpt-cli.git#0.0.1 # or #6f2589b
+npm i -g git+https://github.com/bunjomin/gpt-cli.git#v0.0.1 # or #90a0c04c6edfa342a27794b5cb1c51fda281e775
 ```
 
 That should install this package, its dependencies, and symlink [index.js](./index.js) to your global `node_modules/bin` so that it's in your `$PATH` as `gpt-cli`.
