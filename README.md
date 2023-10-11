@@ -1,7 +1,10 @@
 # gpt-cli
 
-A command line interface for OpenAI's ChatGPT models using the [Chat API](https://platform.openai.com/docs/api-reference/chat), featuring:
+A command line interface for OpenAI's ChatGPT models using the [Chat API](https://platform.openai.com/docs/api-reference/chat).
 
+![preview](./preview.gif)
+
+Featuring:
 - Streamed responses.
 - Markdown formatting with [marked](https://www.npmjs.com/package/marked) and [marked-terminal](https://www.npmjs.com/package/marked-terminal).
 - Syntax highlighting with [highlight.js](https://www.npmjs.com/package/highlight.js).
