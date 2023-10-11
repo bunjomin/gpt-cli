@@ -1,0 +1,32 @@
+{
+  "name": "gpt-cli",
+  "version": "0.0.1",
+  "description": "A command line interface for OpenAI's ChatGPT models.",
+  "author": "bunjomin (https://github.com/bunjomin)",
+  "repository": "https://github.com/bunjomin/gpt-cli",
+  "license": "UNLICENSED",
+  "keywords": [
+    "openai",
+    "chatgpt",
+    "gpt",
+    "chatbot",
+    "cli"
+  ],
+  "bin": {
+    "gpt-cli": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "css2json": "1.1.1",
+    "highlight.js": "11.9.0",
+    "highlight.js-console": "1.0.1",
+    "html2json": "1.0.2",
+    "lodash.throttle": "4.1.1",
+    "marked": "5.1.2",
+    "marked-terminal": "5.2.0",
+    "yargs": "17.7.2"
+  }
+}
