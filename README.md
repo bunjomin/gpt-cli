@@ -12,7 +12,7 @@ Featuring:
 
 ## Installation
 
-You must already have [NodeJS](https://nodejs.org/en/download) (with NPM) installed, or you prefer having multiple versions on your system, [NVM](https://github.com/nvm-sh/nvm).
+You must already have [NodeJS](https://nodejs.org/en/download) (with NPM) installed, or if you prefer having multiple versions on your system, [NVM](https://github.com/nvm-sh/nvm).
 
 ```sh
 npm i -g git+https://github.com/bunjomin/gpt-cli.git
