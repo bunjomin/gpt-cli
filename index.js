@@ -353,7 +353,7 @@ function main() {
         type: "number",
         description:
           "Maximum number of response tokens to generate per response",
-        default: "500",
+        default: 500,
       })
       .option("key", {
         alias: "k",
